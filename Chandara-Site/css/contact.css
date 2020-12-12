@@ -1,0 +1,97 @@
+
+.content {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 0 2px black;
+}
+
+.content h1 {
+    margin: 10px 0 0 0;
+    font-size: 28px;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+
+.content label {
+    display: block;
+    padding: 10px 0;
+    font-size: 20px;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.content input, textarea {
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    text-align: center;
+    background: rgba(46, 185, 247, .4);
+}
+
+.content input:focus, textarea:focus {
+    background: rgba(46, 185, 247, 1);
+}
+
+.content ul {
+    height: 100%;
+    list-style: none;
+    margin: 10px 0;
+    padding: 0;
+}
+
+.content ul li {
+    margin: 2px 0;
+    padding: 10px 15px;
+    border-radius: 3px;
+    border: 2px solid #000000;
+    box-shadow: 1px 2px rgba(0, 0, 0, .8);
+    width: 400px;
+}
+
+.content ul li:nth-child(1) {
+    background: #c0eccc; 
+}
+
+.content ul li:nth-child(2) {
+    background: #d6d4ff;
+}
+
+.content ul li:nth-child(3) {
+    background: #f4cda6;
+}
+
+.content ul li:nth-child(4) {
+    background: #f6a8a6;
+}
+
+.content ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.form-group button {
+    display: block;
+    cursor: pointer;
+    color: #fff;
+    padding: 8px 15px;
+    background: rgba(46, 185, 247, .7);
+    width: 240px;
+    margin: 5px auto 0 auto;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.form-group button:focus {
+    outline: none;
+}
+
